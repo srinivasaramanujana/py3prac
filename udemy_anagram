@@ -1,4 +1,4 @@
-#anagram a long way
+# Program to check if two strings are anagrams
 
 def anagram(s1, s2):
 """ (str, str) -> bool
@@ -7,8 +7,8 @@ Return True if s1 and s2 are anagrams
 >>> anagram(s1, s2)
 True
 """
-    s1 = s1.replace(" ", "")
-    s2 = s2.replace(" ", "")
+    s1 = s1.replace(" ", "").lower()
+    s2 = s2.replace(" ", "").lower()
     
     s1_new = list(s1)
     s2_new = list(s2)

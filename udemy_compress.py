@@ -14,7 +14,7 @@ def compress(s):
     else:
         counter[i] += 1
         
-# print(counter)
+ #print(counter)
   
   result = ''
   

@@ -27,4 +27,3 @@ def uniques(s):
             continue
     
     return True
-    
